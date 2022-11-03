@@ -2,7 +2,7 @@ import Main from './Pages/main';
 import PlatformProvider from './Platform/chakra';
 
 function App() {
-  require("./db/config/conexion");
+  /* require("./db/config/conexion");
   const express = require('express');
   const port = (process.env.port || 3000);
 
@@ -25,7 +25,7 @@ function App() {
     } else {
       console.log('Servidor iniciado en el puerto: ' + port)
     }
-  })
+  }) */
   return (
     <PlatformProvider>
       <Main />
